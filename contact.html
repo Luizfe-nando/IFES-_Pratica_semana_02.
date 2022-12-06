@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pratica Semana 02</title>
+</head>
+<body>
+    <header>
+        <table width="100%">
+            <tr>
+                <td rowspan="2" width="20%">
+                    <img id="imagemPerfil" src="img/foto;.jpg" alt="imagem perfil" width="80px">
+                </td>
+                <td>
+                    <h1 class="h1_title_padrao">Luiz Fernando Moreira Pinto</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3 class="h3_header">
+                        &#60; Developer /Fullstack /Backend /Frontend &#62;
+                    </h3>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <main>
+        <table  width="80%" align="center">
+            <tr>
+                <td class="header_navegacao"> <a class="efeito" href="index.html"><b><i>Principal</i></b></a></td>
+                <td class="header_navegacao"><a class="efeito" href="quemsou.html"><b>Quem Sou</b></a></td>
+                <td class="header_navegacao"><a class="efeito" href="projects.html"><b>Projetos </b></a></td>
+                <td class="header_navegacao"><a class="efeito" href="contact.html"><b>Contatos </b></a></td>
+            </tr>
+        </table>
+        <table  width="77%" align="center">
+            <tr>
+                <td colspan="4">
+                    <h2>Entre em contato!</h2>
+                    <p>Preencha todos os campos do formulário e em ate 48h lhe responderei.</p>
+                    <p>Será um prazer lhe atender!</p>
+                </td>
+            </tr>
+        </table>
+        <table  width="80%" align="center">
+            <form>
+                <tr>
+                    <td colspan="4">
+                        <p class="ajuste_mensagem_formulario">
+                            <label for="slcSevicos">Assunto</label><br>
+                            <select name="servico" id="slcservico">
+                                <option> Selecione o assunto </option>
+                                <option value="BACK">Back-End</option>
+                                <option value="FRONT">Front-End</option>
+                                <option value="BD">MySQL</option>
+                                <option value="WEB">Web Server</option>
+                                <option value="JS">Javascript</option>
+                            </select>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="ajuste_mensagem_formulario">
+                            <label  for="txtNomeCompleto">Nome Completo</label><br>
+                            <input type="text" name="NomeCompleto" id="txtNomeCompleto" placeholder="Digite seu Nome Completo" required>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="ajuste_mensagem_formulario">
+                            <label for="txtEmail">E-mail</label><br>
+                            <input type="text" name="txtEmail" id="txtEmail" placeholder="Digite seu E-mail" required>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="ajuste_mensagem_formulario">
+                            <label for="tel">Telefone</label><br>
+                            <input type="text" required placeholder="(99)99999-9999" id="tel" name="txttel"> 
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="ajuste_mensagem_formulario">
+                            <label for="txtObservacao">Mensagem</label><br>
+                            <textarea name="Observacao" id="txtObservacao" cols="30" rows="10"></textarea>
+                        </p>
+                        <p>
+                           <input class="botao_project" type="submit" value="Enviar">
+                        </p>
+                    </td>
+                </tr>
+            </form>
+            <hr>
+            <tr>
+                <td>
+                    
+                    <ul class="outroContato">
+                        <h3> Outras formas de contato</h3>
+                        <li>Residente em São Paulo/SP</li>
+                        <li><a href="https://outlook.live.com/mail/0/" target="_blank">luizfe-nando@hotmail.com</a></li>
+                        <li>(11) 95842-0871</li>
+                        <li><a href="https://www.linkedin.com/in/luiz-fernando-moreira-pinto-403622239/" target="_blank">Linkedin
+                        </a></li>            
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <table  width="100%">
+        <tr align="center">
+            <td>
+                <p> Copyright &copy; 2022</p>
+                <img src="./img/ifes.png" alt="" width="5%">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
