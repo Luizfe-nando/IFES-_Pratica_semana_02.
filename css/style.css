@@ -111,7 +111,7 @@ span {
 }
 
 .img_apresentacao {
-    background-image: url(./img/pessoa.jpg);
+    background-image: url(../img/pessoa.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 15px;
